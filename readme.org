@@ -1,0 +1,16 @@
+#+title: My Tmux configuration
+
+Download this configuration:
+
+#+begin_src shell
+wget -O ~/.tmux.conf https://raw.githubusercontent.com/yaodong/tmux-conf/master/.tmux.conf
+#+end_src
+
+Install [[https://github.com/tmux-plugins/tpm#installation][Tmux Plugin Manager]]:
+
+#+begin_src shell
+mkdir -p ~/.tmux/plugin
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+#+end_src
+
+Then in a Tmux session, press ~prefix~ + ~I~ to fetch the plugin. To update plugins, press ~prefix~ + ~U~.
