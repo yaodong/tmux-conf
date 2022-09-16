@@ -1,5 +1,11 @@
 #+title: My Tmux configuration
 
+Install Tmux
+
+#+begin_src shell
+brew install tmux
+#+end_src
+
 Download this configuration:
 
 #+begin_src shell
